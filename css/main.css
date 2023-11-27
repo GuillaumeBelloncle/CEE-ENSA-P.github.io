@@ -80,10 +80,7 @@ hr {
   color: var(--JaunePalePS);
 }
 
-.LimitePage {
-  margin-left: 10rem;
-  margin-right: 10rem;
-}
+
 
 .centered-content {
   display: flex;
@@ -118,8 +115,34 @@ h2 {
   font-size: 1.25rem;
 }
 
-.Marge_main {
-  margin-top: 1rem;
+@media screen and (max-width:700px) {
+  .Marge_main {
+    margin-top: 0rem;
+  }
+
+  .FormatOrdi {
+    display: none;
+  }
+
+  .LimitePage {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width:700px) {
+  .Marge_main {
+    margin-top: 1rem;
+  }
+
+  .FormatMobile {
+    display: none;
+  }
+
+  .LimitePage {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
 }
 
 .CelluleCalendrier,
