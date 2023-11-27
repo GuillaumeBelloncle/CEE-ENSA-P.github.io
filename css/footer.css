@@ -1,0 +1,74 @@
+@charset "utf-8";
+/*------------------------
+  PIED DE PAGE
+  ------------------*/
+
+  footer {
+	/*le bandeau de bas de page*/
+	background-color: var(--BleuFoncerKoala);
+  color: var(--VertKoala);
+	padding: 1rem 50px;
+}
+
+footer #piedDePage {
+	/*le pied de page en soit*/
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+footer #footerlogo {
+	/*logo*/
+	height: 16rem;
+	padding: 0;
+	margin: 0;
+}
+
+footer #footertext {
+	/*texte du pied de page*/
+	display: flex;
+	height: min-content;
+	padding: 0;
+	color: var(--VertKoala);
+}
+
+footer #footertext div {
+	padding: 0 0 0 2rem;
+}
+
+footer #footer h2 {
+	white-space: nowrap;
+	/*text-align: center;*/
+	color: var(--VertKoala);
+}
+
+footer #footer p {
+	line-height: 2.3rem;
+}
+
+footer #footer button svg,
+footer #footer button img {
+	overflow: visible;
+	/*images des réseaux sociaux*/
+	height: 1.5em;
+	width: 1.5em;
+	/*translate: 0 0.4em;*/
+	margin-right: 0.5em;
+}
+
+footer #footer button:hover {
+	filter: brightness(130%);
+	-webkit-filter: brightness(130%);
+}
+
+footer #rs {
+    display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+}
+
+footer .logo{
+	width: 8em;
+}

@@ -1,0 +1,42 @@
+header {
+    /*barre rouge en haut de la page*/
+    background-color: var(--BleuFoncerKoala);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav {
+    /*le contenu de la barre rouge,centré*/
+    height: 3.4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav div div {
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+nav .LogoNav {
+    height: 2em;
+}
+
+nav .nav-link {
+    color: var(--VertKoala);
+    text-decoration: none;
+}
+
+nav .nav-link:hover {
+    color: var(--JaunePalePS);
+    text-decoration: none;
+}

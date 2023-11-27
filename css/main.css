@@ -1,0 +1,182 @@
+/*main.css*/
+@import url("img.css");
+@import url("header.css");
+@import url("footer.css");
+
+
+/*charte graphique plan santé MC*/
+
+
+:root {
+  --VertBleuPS: #006A73;
+  --JaunePalePS: #FFE495;
+  --BleuPS: #000091;
+  --BleuFoncerKoala: #001C31;
+  --VertKoala: #8BFAAB;
+  --RougeBordeaux: #990000;
+  --GrisClair: #CCCCCC;
+  --GrisMoyen: #888888;
+  --GrisFoncé: #333333;
+
+  --Bleu1: #137C8B;
+  --Bleu2: #709CA7;
+  --Bleu3: #B8CBD0;
+  --Bleu4: #7A90A4;
+  --Bleu5: #344D59;
+
+  --Vert1: #DCDFDA;
+  --Vert2: #C8D6A2;
+  --Vert3: #B7CE66;
+  --Vert4: #8FB43A;
+  --Vert5: #4B5943;
+
+  --Rouge: #77021D;
+  --Rouge: #F6B339;
+  --Rouge: #DA7B27;
+  --Rouge: #D7572B;
+  --Rouge: #C23028;
+}
+
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 3rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+}
+
+hr {
+  border: none;
+  /* Supprimer la bordure par défaut */
+  height: 2px;
+  /* Épaisseur de la ligne horizontale */
+  background-color: var(--JaunePalePS);
+  /* Couleur de la ligne (rouge dans cet exemple) */
+  margin: 10px 0;
+  /* Marge supérieure et inférieure pour l'espacement */
+}
+
+.content-section {
+  background: var(--VertBleuPS);
+  color: var(--JaunePalePS);
+  padding: 10px 5px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.content-section a {
+  color: var(--JaunePalePS);
+}
+
+.LimitePage {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.centered-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+p {
+  margin: 0px;
+}
+
+button {
+  background-color: var(--GrisClair);
+  color: var(--VertBleuPS);
+  border-radius: 15px;
+  border: none;
+}
+
+.toggle-box-button {
+  cursor: pointer;
+}
+
+h1 {
+  color: var(--VertBleuPS);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  color: var(--BleuPS);
+  font-size: 1.25rem;
+}
+
+.Marge_main {
+  margin-top: 1rem;
+}
+
+.CelluleCalendrier,
+i.CelluleCalendrier {
+  text-align: center;
+  display: block;
+  font-size: 0.8rem;
+}
+
+.GrilleCalendrier {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-rows: minmax(1rem, auto);
+  border: solid 1px var(--GrisClair);
+}
+
+.GrilleCalendrier>div {
+  border: solid 1px var(--GrisClair);
+
+  padding: 0.1em;
+}
+
+hr.Calendrier {
+  border: none;
+  /* Supprimer la bordure par défaut */
+  height: 1px;
+  /* Épaisseur de la ligne horizontale */
+  background-color: var(--JaunePalePS);
+  /* Couleur de la ligne (rouge dans cet exemple) */
+}
+
+.logo {
+  height: 6rem;
+}
+
+.logo4 {
+  height: 4rem;
+}
+
+.logoPt {
+  height: 2rem;
+}
+
+
+.GrilleUsers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(1rem, auto);
+}
+
+.GrilleUsers>div {
+  margin: 0.5em;
+}
+
+.event {
+  border: 1px solid var(--GrisClair);
+  border-radius: 15px;
+  margin-bottom: 10px;
+  color: #000000;
+}
