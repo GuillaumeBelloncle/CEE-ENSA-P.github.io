@@ -217,10 +217,17 @@ hr.Calendrier {
     justify-content: center;
   }
 
-  .row div {
+  .row .illustration {
     flex-direction: column;
     display: flex;
-    width: 50%;
+    width: 40%;
+
+  }
+
+  .row .texte {
+    flex-direction: column;
+    display: flex;
+    width: 60%;
 
   }
 }
