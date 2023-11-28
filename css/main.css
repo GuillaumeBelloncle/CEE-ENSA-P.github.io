@@ -272,3 +272,12 @@ a button {
   justify-content: center;
   width: 100%;
 }
+
+
+.rdvMc strong {
+  text-decoration: solid;
+}
+
+.rdvMc i {
+  color: var(--VertBleuPS);
+}
