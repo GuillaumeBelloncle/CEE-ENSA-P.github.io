@@ -180,14 +180,17 @@ hr.Calendrier {
 
 .logo {
   height: 6rem;
+  margin: 5px;
 }
 
 .logo4 {
   height: 4rem;
+  margin: 5px;
 }
 
 .logoPt {
   height: 2rem;
+  margin: 5px;
 }
 
 
@@ -206,4 +209,59 @@ hr.Calendrier {
   border-radius: 15px;
   margin-bottom: 10px;
   color: #000000;
+}
+
+@media screen and (max-width:700px) {
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .row div {
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+
+  }
+}
+
+@media screen and (min-width:700px) {
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .row .illustration {
+    flex-direction: column;
+    display: flex;
+    width: 25%;
+
+  }
+
+  .row .texte {
+    flex-direction: column;
+    display: flex;
+    width: 75%;
+
+  }
+}
+
+.illustration {
+  width: 100%;
+  margin: 10px;
+}
+
+button {
+  background-color: var(--VertBleuPS);
+  color: var(--JaunePalePS);
+  border-radius: 15px;
+  border: none;
+  justify-content: center;
+
+}
+
+a button {
+  color: var(--JaunePalePS);
+  justify-content: center;
+  width: 100%;
 }
