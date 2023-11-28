@@ -258,6 +258,17 @@ hr.Calendrier {
   margin: 10px;
 }
 
+.illustration img {
+  border-radius: 10px;
+}
+
+.illustration img:hover,
+a button:hover {
+  /*bloc carte quand on passe la souris*/
+  transform: scale(1.02);
+  box-shadow: 0 0 5px 5px var(--GrisClair);
+}
+
 button {
   background-color: var(--VertBleuPS);
   color: var(--JaunePalePS);
