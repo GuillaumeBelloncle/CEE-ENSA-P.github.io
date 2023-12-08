@@ -23,8 +23,7 @@ nav div {
 
 nav div div {
     justify-content: center;
-    margin-top: 10px;
-    margin-left: 20px;
+    margin: 10px;
 }
 
 nav .LogoNav {
