@@ -231,6 +231,7 @@ hr.Calendrier {
   justify-content: center;
 }
 
+
 @media screen and (max-width:700px) {
   .row .illustration {
     flex-direction: column;
@@ -252,6 +253,11 @@ hr.Calendrier {
     display: flex;
     width: 25%;
 
+  }
+
+  .rowDrive2 {
+    display: flex;
+    justify-content: center;
   }
 
   .row .texte {
