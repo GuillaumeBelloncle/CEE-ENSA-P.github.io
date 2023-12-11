@@ -193,6 +193,10 @@ hr.Calendrier {
   margin: 5px;
 }
 
+.logoMin {
+  height: 1rem;
+}
+
 
 .GrilleUsers {
   display: grid;
@@ -211,12 +215,23 @@ hr.Calendrier {
   color: #000000;
 }
 
-@media screen and (max-width:700px) {
-  .row {
-    display: flex;
-    justify-content: center;
-  }
+.rowDrive {
+  display: flex;
+}
 
+.rowDrive>div {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width:700px) {
   .row .illustration {
     flex-direction: column;
     display: flex;
@@ -228,16 +243,10 @@ hr.Calendrier {
     flex-direction: column;
     display: flex;
     width: 60%;
-
   }
 }
 
 @media screen and (min-width:700px) {
-  .row {
-    display: flex;
-    justify-content: center;
-  }
-
   .row .illustration {
     flex-direction: column;
     display: flex;
