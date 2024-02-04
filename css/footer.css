@@ -8,14 +8,13 @@ footer {
 	/*le bandeau de bas de page*/
 	background-color: var(--BleuFoncerKoala);
 	color: var(--VertKoala);
-
+	padding: 1rem 50px;
 }
 
-footer div div {
+footer div {
 	/*le pied de page en soit*/
 	max-width: 1000px;
 	display: flex;
-	padding: 1rem 50px;
 }
 
 footer h2,
@@ -25,7 +24,7 @@ footer a {
 }
 
 
-footer div div div {
+footer div div {
 	flex-direction: column;
 	display: flex;
 	margin-top: 10px;
