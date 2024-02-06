@@ -245,6 +245,11 @@ hr.Calendrier {
     display: flex;
     width: 60%;
   }
+
+  body {
+    font-size: 0.8rem;
+  }
+
 }
 
 @media screen and (min-width:700px) {
@@ -297,6 +302,7 @@ a button {
   color: var(--JaunePalePS);
   justify-content: center;
   width: 100%;
+  font-size: 2rem;
 }
 
 
