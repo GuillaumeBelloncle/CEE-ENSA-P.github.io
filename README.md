@@ -1,1 +1,1 @@
-Test d'un site pour le CEE-ENSA·P
+Test d'un site pour le CEE-ENSA
