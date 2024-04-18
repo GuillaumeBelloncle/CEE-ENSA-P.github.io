@@ -9,7 +9,7 @@
 
 :root {
 
-  --JaunePalePS: #FFE495;
+  --Jaune1: #FFE495;
 
   --Bleu1: #869ECE;
   --Bleu2: #516B8F;
@@ -59,7 +59,7 @@ hr {
   /* Supprimer la bordure par défaut */
   height: 2px;
   /* Épaisseur de la ligne horizontale */
-  background-color: var(--JaunePalePS);
+  background-color: var(--Jaune1);
   /* Couleur de la ligne (rouge dans cet exemple) */
   margin: 10px 0;
   /* Marge supérieure et inférieure pour l'espacement */
@@ -67,7 +67,7 @@ hr {
 
 .content-section {
   background: var(--Vert3);
-  color: var(--JaunePalePS);
+  color: var(--Jaune1);
   padding: 10px 5px;
   border: 1px solid #dddddd;
   border-radius: 3px;
@@ -75,7 +75,7 @@ hr {
 }
 
 .content-section a {
-  color: var(--JaunePalePS);
+  color: var(--Jaune1);
 }
 
 .centered-content {
@@ -167,7 +167,7 @@ hr.Calendrier {
   /* Supprimer la bordure par défaut */
   height: 1px;
   /* Épaisseur de la ligne horizontale */
-  background-color: var(--JaunePalePS);
+  background-color: var(--Jaune1);
   /* Couleur de la ligne (rouge dans cet exemple) */
 }
 
