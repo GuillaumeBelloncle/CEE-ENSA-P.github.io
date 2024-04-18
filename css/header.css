@@ -1,12 +1,12 @@
 header {
     /*barre rouge en haut de la page*/
-    background-color: var(--BleuFoncerKoala);
+    background-color: var(--Bleu3);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
-    color: var(--VertKoala)
+    color: var(--Vert3)
 }
 
 nav {
@@ -32,11 +32,11 @@ nav .LogoNav {
 }
 
 nav .nav-link {
-    color: var(--VertKoala);
+    color: var(--Vert3);
     text-decoration: none;
 }
 
 nav .nav-link:hover {
-    color: var(--JaunePalePS);
+    color: var(--Bleu1);
     text-decoration: none;
 }

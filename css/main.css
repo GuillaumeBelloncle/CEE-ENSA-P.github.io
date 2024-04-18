@@ -8,33 +8,26 @@
 
 
 :root {
-  --VertBleuPS: #006A73;
+
   --JaunePalePS: #FFE495;
-  --BleuPS: #000091;
-  --BleuFoncerKoala: #001C31;
-  --VertKoala: #8BFAAB;
-  --RougeBordeaux: #990000;
+
+  --Bleu1: #869ECE;
+  --Bleu2: #516B8F;
+  --Bleu3: #001C31;
+
+  --Vert1: #C5FCEE;
+  --Vert2: #54C6B3;
+  --Vert3: #09A38C;
+
+  --Rouge1: #E48E68;
+  --Rouge2: #CD3F43;
+  --Rouge3: #BF0C2B;
+
+  --Blanc: #ffffff;
   --GrisClair: #CCCCCC;
   --GrisMoyen: #888888;
   --GrisFoncé: #333333;
-
-  --Bleu1: #137C8B;
-  --Bleu2: #709CA7;
-  --Bleu3: #B8CBD0;
-  --Bleu4: #7A90A4;
-  --Bleu5: #344D59;
-
-  --Vert1: #DCDFDA;
-  --Vert2: #C8D6A2;
-  --Vert3: #B7CE66;
-  --Vert4: #8FB43A;
-  --Vert5: #4B5943;
-
-  --Rouge: #77021D;
-  --Rouge: #F6B339;
-  --Rouge: #DA7B27;
-  --Rouge: #D7572B;
-  --Rouge: #C23028;
+  --Noir: #000000;
 }
 
 body {
@@ -51,7 +44,7 @@ body {
 }
 
 a {
-  color: var(--BleuFoncerKoala);
+  color: var(--Bleu3);
 }
 
 h3,
@@ -73,7 +66,7 @@ hr {
 }
 
 .content-section {
-  background: var(--VertBleuPS);
+  background: var(--Vert3);
   color: var(--JaunePalePS);
   padding: 10px 5px;
   border: 1px solid #dddddd;
@@ -99,7 +92,7 @@ p {
 
 button {
   background-color: var(--GrisClair);
-  color: var(--VertBleuPS);
+  color: var(--Vert3);
   border-radius: 15px;
   border: none;
 }
@@ -109,13 +102,13 @@ button {
 }
 
 h1 {
-  color: var(--VertBleuPS);
+  color: var(--Vert3);
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 h2 {
-  color: var(--BleuPS);
+  color: var(--Bleu3);
   font-size: 1.25rem;
 }
 
@@ -287,11 +280,12 @@ a button:hover {
   /*bloc carte quand on passe la souris*/
   transform: scale(1.02);
   box-shadow: 0 0 5px 5px var(--GrisClair);
+  color: var(--Bleu2);
 }
 
 button {
-  background-color: var(--VertBleuPS);
-  color: var(--JaunePalePS);
+  background-color: var(--Vert3);
+  color: var(--Bleu3);
   border-radius: 15px;
   border: none;
   justify-content: center;
@@ -299,7 +293,7 @@ button {
 }
 
 a button {
-  color: var(--JaunePalePS);
+  color: var(--Bleu3);
   justify-content: center;
   width: 100%;
   font-size: 1.2rem;
@@ -311,5 +305,5 @@ a button {
 }
 
 .rdvMc i {
-  color: var(--VertBleuPS);
+  color: var(--Vert3);
 }

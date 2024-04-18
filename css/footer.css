@@ -6,8 +6,8 @@
 
 footer {
 	/*le bandeau de bas de page*/
-	background-color: var(--BleuFoncerKoala);
-	color: var(--VertKoala);
+	background-color: var(--Bleu3);
+	color: var(--Vert3);
 	padding: 1rem 50px;
 }
 
@@ -20,7 +20,11 @@ footer div {
 footer h2,
 footer a {
 	margin-bottom: 5px;
-	color: var(--VertKoala);
+	color: var(--Vert3);
+}
+
+footer a:hover {
+	color: var(--Bleu1);
 }
 
 
